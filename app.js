@@ -10,10 +10,12 @@ const regularAmount = 100;
 const increasedAmount = 1000;
 const specialAmount = 9000;
 
+const maxCashback = 3000;
+
 cashback = regularPercent*regularAmount + increasedPercent*increasedAmount + specialPercent*specialAmount;
 
-if (cashback >= 3000) {
-    console.log ("Your cashback: ", 3000);
+if (cashback >= maxCashback) {
+    console.log ("Your cashback: ", maxCashback);
 } else {
     console.log(cashback);
 }
