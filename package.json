@@ -10,5 +10,14 @@
   "license": "ISC",
   "devDependencies": {
     "live-server": "^1.2.1"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Diananeedle/Homework_2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Diananeedle/Homework_2/issues"
+  },
+  "homepage": "https://github.com/Diananeedle/Homework_2#readme"
 }
